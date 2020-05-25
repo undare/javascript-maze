@@ -2,7 +2,6 @@ import { ComponentType } from 'react'
 import Taro, { Config } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
-import { AtCalendar } from 'taro-ui'
 
 import './index.scss'
 
@@ -25,27 +24,8 @@ class Index extends Taro.Component<Props> {
     navigationBarTitleText: '首页',
   }
 
-  increment = () => {
-    const { counterStore } = this.props
-    counterStore.increment()
-  }
-
-  decrement = () => {
-    const { counterStore } = this.props
-    counterStore.decrement()
-  }
-
-  incrementAsync = () => {
-    const { counterStore } = this.props
-    counterStore.incrementAsync()
-  }
-
   render() {
-    return (
-      <View className='index'>
-        <AtCalendar isVertical isMultiSelect></AtCalendar>
-      </View>
-    )
+    return <View className='index'></View>
   }
 }
 

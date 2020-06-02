@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "javascript-maze",
-  "description": "javascript 迷津",
+  "projectname": "javascript迷津",
+  "description": "javascript迷津",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

@@ -16,12 +16,8 @@ type Props = {
 @inject('counterStore')
 @observer
 class Index extends Taro.Component<Props> {
-  componentWillReact() {
-    console.log('componentWillReact')
-  }
-
   config: Config = {
-    navigationBarTitleText: '首页',
+    navigationBarTitleText: 'JavaScript迷津',
   }
 
   render() {
